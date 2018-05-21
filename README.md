@@ -11,4 +11,5 @@ https://github.com/parcel-bundler/parcel/issues/1317
 ```
 yarn init -y .
 yarn add parcel-bundler typescript react react-dom
+yarn add babel babel-preset-react babel-plugin-env
 ```
