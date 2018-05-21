@@ -1,9 +1,9 @@
 import * as React from 'react'
 import { Route, Switch } from 'react-router-dom'
-import FooComponent from './FooComponent'
-import BarComponent from './BarComponent'
+import FooComponent from '@/FooComponent'
+import BarComponent from '@/BarComponent'
 
-export const Routes = props => (
+const Routes = props => (
   <div>
     <Switch>
       <Route {...props} path="/" exact component={FooComponent} />
@@ -12,3 +12,5 @@ export const Routes = props => (
     </Switch>
   </div>
 )
+
+export default Routes
