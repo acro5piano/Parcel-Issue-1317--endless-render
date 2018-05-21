@@ -4,6 +4,7 @@ import MyComponent from './MyComponent'
 export default class App extends React.Component {
   componentDidMount() {
     console.log('Looping')
+    fetch('http://localhost:3000/db').then(r => r.json())
   }
 
   render() {
